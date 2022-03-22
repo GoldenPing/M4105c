@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role'
     ];
 
     /**
@@ -41,4 +42,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function personel()
+    {
+      return $this->hasOne(Personnel::class,'id_user','id');
+    }
+    public function specialiste()
+    {
+      return $this->hasOne(Specialiste::class,'id_user','id');
+    }
+
+    
 }

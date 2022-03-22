@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+
+div{
+    margin: 1.5%;
+}
+
+
+input{
+    text-align: left;
+}
+
+label{
+    margin-right: 0%     ;
+}
+
+
+form{
+    margin: 2%;
+    padding: 2%;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.65); 
+box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.65);
+}
+.not{
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,1); 
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,1);
+}
+
+.button>input{
+    color :aliceblue;
+    background-color: rgb(165, 42, 42);
+    padding: 0.5%;
+    border-radius: 5%;
+    transition: all ease 0.5s;
+   
+}
+
+.button>input:hover{
+    background-color: rgb(252, 98, 98);
+    color : black;
+border: 1px black solid;
+}
+
+
+.champ>*{
+    display: block;
+   text-align: center;
+   
+}
+
+.champ>input{
+    font-size: 1vmax;
+    margin-left: 25%;
+    width: 50%;
+}
+.champ>select{
+    font-size: 1vmax;
+    margin-left: 25%;
+    width: 50%;
+}
+.champ>textarea{
+    font-size: 1vmax;
+    margin-left: 25%;
+    width: 50%;
+}
+
+table{
+    margin: 3%;
+    border-collapse: collapse;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.65); 
+box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.65);
+}
+
+table>tr{
+    padding: 0%;
+    
+}
+
+table>tr>td{
+    
+ border: rgb(165, 42, 42) solid 2px;
+width: 7.5%;
+}
+
+.desc{
+    width: 50%;
+}
+
+button{
+    background-color: rgb(165, 42, 42);
+    color: aliceblue;
+    padding: 0.5%;
+    border-radius: 5%;
+    transition: all ease 0.5s;
+}
+
+
+button:hover{
+color: black;
+    background-color: rgb(252, 98, 98);
+
+}
+ 

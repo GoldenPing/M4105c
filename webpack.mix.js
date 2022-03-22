@@ -19,12 +19,12 @@ mix.js('resources/js/app.js', 'public/js')
     .options({
         hmrOptions: {
             host: '51.83.36.122',
-            port: '8080'
+            port: '8091'
         }
     })
     .webpackConfig({
         devServer: {
             host: '51.83.36.122',
-            port: '8080'
+            port: '8091'
         }
     });
